@@ -1,7 +1,8 @@
 Installation:
-sudo apt remove python3-rpi.gpio
-sudo apt update
-sudo apt install python3-rpi-lgpio
+
+- sudo apt remove python3-rpi.gpio
+- sudo apt update
+- sudo apt install python3-rpi-lgpio
 
 ----
 # gpiotest.py
