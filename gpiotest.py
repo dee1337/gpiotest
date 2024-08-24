@@ -23,9 +23,9 @@
 #
 
 try:
-    import RPi.LGPIO as GPIO
+    import RPi.GPIO as GPIO
 except RuntimeError:
-    print("Error importing RPi.LGPIO!  This is probably because you need superuser privileges.  You can achieve this by using 'sudo' to run your script")
+    print("Error importing RPi.GPIO!  This is probably because you need superuser privileges.  You can achieve this by using 'sudo' to run your script")
 
 import sys
 import getopt
